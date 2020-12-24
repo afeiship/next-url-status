@@ -2,8 +2,8 @@
  * name: @jswork/next-url-status
  * description: Detect url status code for next.
  * homepage: https://github.com/afeiship/next-url-status
- * version: 1.0.1
- * date: 2020-12-24 15:34:24
+ * version: 1.0.2
+ * date: 2020-12-24 15:44:36
  * license: MIT
  */
 
@@ -25,10 +25,10 @@
     return new Promise(function (resolve) {
       request
         .get(options, function (response) {
-          resolve({ code: 0, data: response.statusCode });
+          resolve({ code: response.statusCode });
         })
         .on('error', function (error) {
-          resolve({ code: 1, data: -1 });
+          resolve({ code: -1 });
         });
     });
   };
