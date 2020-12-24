@@ -16,10 +16,10 @@
     return new Promise(function (resolve) {
       request
         .get(options, function (response) {
-          resolve({ code: 0, data: response.statusCode });
+          resolve({ code: response.statusCode });
         })
         .on('error', function (error) {
-          resolve({ code: 1, data: -1 });
+          resolve({ code: -1 });
         });
     });
   };

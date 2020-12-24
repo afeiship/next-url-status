@@ -21,8 +21,8 @@ nx.urlStatus(url).then((res) => {
   console.log(res);
 });
 
-// failed : { code: 1, data: -1 }
-// success: { code: 0, data: 200 }
+// failed : { code: -1 }
+// success: { code: 200 }
 ```
 
 ## license
