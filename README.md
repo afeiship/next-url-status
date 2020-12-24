@@ -15,9 +15,9 @@ npm install -S @jswork/next-url-status
 ```js
 import '@jswork/next-url-status';
 
-nx.urlStatus(
-  'https://s3.cn-north-1.amazonaws.com.cn/course-assets.saybot.net/coursewares/xgn2/001/001.mp3'
-).then((res) => {
+const url = 'https://www.baidu.com/index.html';
+
+nx.urlStatus(url).then((res) => {
   console.log(res);
 });
 
