@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-url-status",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Detect url status code for next.",
   "homepage": "https://github.com/afeiship/next-url-status",
   "author": {

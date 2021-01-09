@@ -2,8 +2,8 @@
  * name: @jswork/next-url-status
  * description: Detect url status code for next.
  * homepage: https://github.com/afeiship/next-url-status
- * version: 1.0.2
- * date: 2020-12-24 15:44:36
+ * version: 1.0.3
+ * date: 2021-01-09 16:41:06
  * license: MIT
  */
 
